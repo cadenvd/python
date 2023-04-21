@@ -7,7 +7,9 @@ if __name__ == '__main__':
     window.withdraw()
 
     # TODO 1) Get 6 random numbers to put on your lottery ticket
-
+    lotnum = ""
+    for i in range(6):
+        num = random(1, 100)
+        messbox = messagebox.showinfo(title=None, info= lotnum += srt(num + " "))
     # TODO 2) Display the selected numbers to the user in a pop-up
-
     # TODO 3) BONUS: Set the title of the pop-up to show it is a lottery ticket
